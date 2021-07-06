@@ -1,0 +1,45 @@
+#megasena input {
+  font-size: 1.4rem;
+  width: 60px;
+  border: 1px solid #246ECE;
+}
+
+#megasena #input, #megasena #botao {
+  display: inline;
+}
+
+#megasena button {
+  width: 60px;
+  height: 30px;
+  background-color: #FFF;
+  border: 1px solid #246ECE;
+  color: #246ECE;
+  border-radius: 4px;
+  padding: 0.6em;
+  margin-left: 10px;
+  text-align: center;
+}
+
+#megasena button:hover {
+  background-color: #246ECE;
+  border: 1px solid #246ECE;
+  color: #FFF;
+  transition-delay: 0.2s;
+}
+
+#megasena ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#megasena ul li {
+  font-size: 1.2rem;
+  display: inline;
+  background-color: #246ECE;
+  border-radius: 50%;
+  padding: 0.3em;
+  margin-right: 0.3em;
+  margin-bottom: 0.2rem;
+  color: #FFF;
+  box-shadow: 0.1em 0.1em #00000042;
+}

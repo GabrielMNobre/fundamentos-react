@@ -1,0 +1,21 @@
+#tblProdutos {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tblProdutos th {
+  background-color: #dedada;
+  border: 1px solid #c5c0c0;
+  text-align: center;
+  padding: 8px;
+}
+
+#tblProdutos td {
+  border: 1px solid #c5c0c0;
+  text-align: left;
+  padding: 8px;
+}
+
+#tblProdutos tr:nth-child(even) {
+  background-color: #dddddd;
+}
